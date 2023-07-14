@@ -51,6 +51,8 @@ const Layout = () => {
         <Link to="/">Home</Link>
         <Link to="/login">login</Link>
         <Link to="/register">register</Link>
+        <Link to="/menu">menu</Link>
+        <Link to="/aboutus">AboutUs</Link>
       </form>
     </div>
   </div>
