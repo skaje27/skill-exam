@@ -6,6 +6,8 @@ import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import NoPage from "./Components/NoPage";
+import Menu from "./Components/Menu";
+import AboutUs from "./Components/AboutUs";
 const App = ()=>{
   return(
    
@@ -16,6 +18,8 @@ const App = ()=>{
           <Route path="Login" element={<Login />} />
           <Route path="Register" element={<Register />} />
           <Route path="NoPage" element={<NoPage />} />
+          <Route path="Menu" element={<Menu />} />
+          <Route path="AboutUs" element={<AboutUs />} />
         </Route>
       </Routes>
     </BrowserRouter>
