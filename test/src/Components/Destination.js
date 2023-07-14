@@ -2,6 +2,9 @@ import { Outlet } from "react-router-dom";
 const Destination = () => {
     return ( 
         <>
+        <center>
+          <h1>Explore Around India</h1>
+        </center>
        <div class="container">
   <div class="row">
     <div class="col col-md-6 col-sm-12">
