@@ -3,10 +3,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle"
 import Layout from "./Components/Layout";
 import Home from "./Components/Home";
-import Login from "./Components/Login";
-import Register from "./Components/Register";
 import NoPage from "./Components/NoPage";
-import Menu from "./Components/Menu";
+import Destination from "./Components/Destination";
 import AboutUs from "./Components/AboutUs";
 const App = ()=>{
   return(
@@ -15,10 +13,7 @@ const App = ()=>{
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Login" element={<Login />} />
-          <Route path="Register" element={<Register />} />
-          <Route path="NoPage" element={<NoPage />} />
-          <Route path="Menu" element={<Menu />} />
+          <Route path="Destination" element={<Destination />} />
           <Route path="AboutUs" element={<AboutUs />} />
         </Route>
       </Routes>

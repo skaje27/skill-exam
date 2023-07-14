@@ -6,23 +6,23 @@ const AboutUs = () => {
       <h1>About Us</h1>
       <div id="accordion">
         <div className="card">
-          <div className="card-header" id="headingOne" style={{backgroundColor:"#FFA500"}}>
+          <div className="card-header" id="headingOne" style={{backgroundColor:"cyan"}}>
             <h5 className="mb-0">
-            Kitchen
+            Travel Website
             </h5>
           </div>
           <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div className="card-body">
-              <h4> Welcome to our food app, your ultimate culinary companion! We are passionate about bringing delicious food experiences to your fingertips, making your dining adventures easy, enjoyable, and unforgettable.
-
-                  At our core, we believe that good food has the power to bring people together and create lasting memories. Whether you're a seasoned foodie or just starting your culinary journey, our app is designed to cater to all tastes and preferences.</h4>
+              <h4> Welcome to Trip-a-holic app, your ultimate travel companion! We are passionate about bringing out the hodophilic side in you, making your adventures easy, enjoyable, and unforgettable.
+                    We help you explore, decide and execute the trip plan which is best suitable for you.
+                  At our core, we believe that a vacation has the power to bring the best out of a person and also bring people together and create lasting memories. </h4>
             </div>
           </div>
         </div>
         <div className="card" >
-          <div className="card-header" id="headingTwo" style={{backgroundColor:"#FFA500"}}>
+          <div className="card-header" id="headingTwo" style={{backgroundColor:"cyan"}}>
             <h5 className="mb-0">
-             Adress
+             Address
             </h5>
           </div>
             <div className="card-body" >
@@ -34,7 +34,7 @@ const AboutUs = () => {
             </div>
           </div>
         <div className="card" >
-          <div className="card-header" id="headingFour" style={{backgroundColor:"#FFA500"}}>
+          <div className="card-header" id="headingFour" style={{backgroundColor:"cyan"}}>
             <h5 className="mb-0">
               Contact Details
             </h5>
