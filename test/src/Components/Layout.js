@@ -30,11 +30,10 @@ const Layout = () => {
         </li>
       </ul>
       <form class="d-flex" role="search">
-        {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-light" type="submit"><a href="login.html">Login</a></button> */}
         <Link to="/"><button type="submit" class="btn" style={{backgroundColor:"#9eeaf9"}} href="home.html">Home</button></Link>
         <Link to="/destination"><button type="submit" class="btn" style={{backgroundColor:"#9eeaf9"}} href="destination.html">Destination</button></Link>
         <Link to="/aboutus"><button type="submit" class="btn" style={{backgroundColor:"#9eeaf9"}} href="aboutus.html">About Us</button></Link>
+        <Link to="/login"><button type="submit" class="btn" style={{backgroundColor:"#9eeaf9"}} href="login.html">Login</button></Link>
         
       </form>
     </div>

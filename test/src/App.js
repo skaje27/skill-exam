@@ -6,6 +6,8 @@ import Home from "./Components/Home";
 import NoPage from "./Components/NoPage";
 import Destination from "./Components/Destination";
 import AboutUs from "./Components/AboutUs";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
 const App = ()=>{
   return(
    
@@ -15,6 +17,8 @@ const App = ()=>{
           <Route index element={<Home />} />
           <Route path="Destination" element={<Destination />} />
           <Route path="AboutUs" element={<AboutUs />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="Register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>
