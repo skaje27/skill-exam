@@ -86,7 +86,7 @@ const Home = () => {
       <img src="https://img.freepik.com/premium-photo/chicken-pork-beef-meat-skewers-with-vegetables-spicy-potatoes_52137-30827.jpg?size=626&ext=jpg&uid=R107709791&ga=GA1.2.556309063.1687533940&semt=sph" alt="myimage" width="319px" height="213px" />
         {/* <img src="https://img.freepik.com/premium-photo/chicken-pork-beef-meat-skewers-with-vegetables-spicy-potatoes_52137-30827.jpg?size=626&ext=jpg&uid=R107709791&ga=GA1.2.556309063.1687533940&semt=sph" class="card-img-top" alt="..."> */}
         <div class="card-body">
-          <h5 class="card-title">Dinner</h5>
+          <h5 class="card-title">Diner</h5>
           <p class="card-text">Dinner Description.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
